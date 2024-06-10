@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  .background{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .code1 {
+    background-color: blue;
+    position: absolute;
+    top: 360px;
+    left: 420px;
+    padding: 26px 23px;
+    font-size: 16px;
+    opacity: 0%;
+  }
+  
+  @media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .code1 {
+      top: 545px; 
+      left: 590px; 
+      padding: 28px 27px; 
+      font-size: 32px; 
+    }
+  }
+  
+  .code2{
+    background-color: blue;
+    position:absolute; top:385px; left:1070px;
+    size-adjust: 10px;
+    padding: 17px 12px;
+    font-size: 8px;
+    opacity: 0%;
+  }
+  
+  @media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .code2 {
+      top: 580px; 
+      left: 1575px; 
+      padding: 19px 10px; 
+      font-size: 20px; 
+    }
+  }
+  
+  .code3{
+    background-color: blue;
+    position:absolute; top:40px; left:1068px;
+    size-adjust: 10px;
+    padding: 17px 12px;
+    font-size: 8px;
+    opacity: 0%;
+  }
+  
+  @media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .code3 {
+      top: 60px; 
+      left: 1575px; 
+      padding: 25px 10px;
+      font-size: 16px; 
+    }
+  }
+  
+  .code4{
+    background-color: blue;
+    position:absolute; top:510px; left:1072px;
+    size-adjust: 10px;
+    padding: 10px 20px;
+    font-size: 6px;
+    opacity:0%;
+  }
+  
+  @media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .code4 {
+      top: 760px; 
+      left: 1575px;
+      padding: 20px 28px; 
+      font-size: 10px; 
+    }
+  }
+  
+  .custom-alert {
+    display: none;
+    position: fixed;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #468fe2; 
+    color: white;
+    padding: 15px;
+    border-radius: 125px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    width: 300px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  
+  .custom-alert2 {
+    display: none;
+    position: fixed;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #468fe2; 
+    color: white;
+    padding: 15px;
+    border-radius: 125px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    width: 300px;
+  }
+  
+  
+  .custom-alert3 {
+    display: none;
+    position: fixed;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #468fe2; 
+    color: white;
+    padding: 15px;
+    border-radius: 125px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    width: 300px;
+  }
+  
+  .custom-alert4 {
+    display: none;
+    position: fixed;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #468fe2; 
+    color: white;
+    padding: 15px;
+    border-radius: 125px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    width: 300px;
+  }
+  
+  .custom-alert5 {
+    display: none;
+    position: fixed;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #468fe2; 
+    color: white;
+    padding: 15px;
+    border-radius: 125px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    width: 300px;
+  }
+  
+  #startButton{
+    background-color: blue;
+    position: absolute;
+    top: 520px;
+    left: 40px;
+    padding: 170px 40px;
+    font-size: 64px;
+    opacity: 0%;
+  }
+  
+  
+  
+  
+  
+  
+  body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+  }
+  
+  #content {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: #ffffff;
+  }
+  
+  #fullscreenBtn {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: greenyellow;
+  }
