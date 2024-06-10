@@ -28,6 +28,16 @@ body{
     }
   }
   
+  @media screen and (min-width: 1720px) and (min-height: 1080px) {
+    .code1 {
+      top: 545px; 
+      left: 550px; 
+      padding: 29px 9px; 
+      font-size: 32px; 
+    }
+  }
+  
+
   .code2{
     background-color: blue;
     position:absolute; top:385px; left:1070px;
@@ -45,6 +55,16 @@ body{
       font-size: 20px; 
     }
   }
+
+  @media screen and (min-width: 1720px) and (min-height: 1080px) {
+    .code2 {
+      top: 580px; 
+      left: 1395px; 
+      padding: 16px 1px; 
+      font-size: 20px; 
+    }
+  }
+  
   
   .code3{
     background-color: blue;
@@ -64,6 +84,15 @@ body{
     }
   }
   
+  @media screen and (min-width: 1720px) and (min-height: 1080px) {
+    .code3 {
+      top: 60px; 
+      left: 1390px; 
+      padding: 25px 10px;
+      font-size: 14px; 
+    }
+  }
+
   .code4{
     background-color: blue;
     position:absolute; top:510px; left:1072px;
@@ -79,6 +108,15 @@ body{
       left: 1575px;
       padding: 20px 28px; 
       font-size: 10px; 
+    }
+  }
+
+  @media screen and (min-width: 1720px) and (min-height: 1080px) {
+    .code4 {
+      top: 760px; 
+      left: 1395px;
+      padding: 20px 28px; 
+      font-size: 8px; 
     }
   }
   
