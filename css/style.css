@@ -16,7 +16,7 @@ body{
     left: 420px;
     padding: 26px 23px;
     font-size: 16px;
-    opacity: 0%;
+    opacity: 100%;
   }
   
   @media screen and (min-width: 1920px) and (min-height: 1080px) {
@@ -28,7 +28,7 @@ body{
     }
   }
   
-  @media screen and (min-width: 1720px) and (min-height: 1080px) {
+  @media screen and (max-width: 1720px) and (min-height: 1080px) {
     .code1 {
       top: 545px; 
       left: 550px; 
@@ -56,7 +56,7 @@ body{
     }
   }
 
-  @media screen and (min-width: 1720px) and (min-height: 1080px) {
+  @media screen and (max-width: 1720px) and (min-height: 1080px) {
     .code2 {
       top: 580px; 
       left: 1395px; 
@@ -84,7 +84,7 @@ body{
     }
   }
   
-  @media screen and (min-width: 1720px) and (min-height: 1080px) {
+  @media screen and (max-width: 1720px) and (min-height: 1080px) {
     .code3 {
       top: 60px; 
       left: 1390px; 
@@ -111,7 +111,7 @@ body{
     }
   }
 
-  @media screen and (min-width: 1720px) and (min-height: 1080px) {
+  @media screen and (max-width: 1720px) and (min-height: 1080px) {
     .code4 {
       top: 760px; 
       left: 1395px;
